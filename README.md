@@ -33,11 +33,11 @@
 8.Finally , it greets the user and quits.
 
 # Block diagram
-    link : https://drive.google.com/file/d/10J0UiALE6-LiiAMgTbL-vsjrYk8XSVFq/view?usp=sharing
+    * link : https://drive.google.com/file/d/10J0UiALE6-LiiAMgTbL-vsjrYk8XSVFq/view?usp=sharing
     
     
 # Youtube Link 
-    https://youtu.be/wUnw6NTicFQ
+    * Link : https://youtu.be/wUnw6NTicFQ
 
 # Images of our webpage
   * Main  WEBpage : https://drive.google.com/file/d/1ZlcEH7JZgSLfRRdp2YjI8zYFNR2nX3RZ/view?usp=sharing
