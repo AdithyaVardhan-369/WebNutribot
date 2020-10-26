@@ -31,3 +31,7 @@
 7.Then , it asks for the user whether he/she wants to check some other details of items or wants exit()
 
 8.Finally , it greets the user and quits.
+
+# Block diagram
+    link : https://drive.google.com/file/d/10J0UiALE6-LiiAMgTbL-vsjrYk8XSVFq/view?usp=sharing
+       
