@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Nutrition Bot</title>
+	<link rel="stylesheet" href="css/hw1.css">
+	<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div class="back">
+		<header>
+			<h1>RealTime Nutrition Webpage</h1>
+			<nav>
+				<a href="fruits.html">Fruits</a>
+				<a href="vegetables.html">Vegetables</a>
+				<a href="biscuits.html">Biscuits</a>
+				<a href="cal.html">BMI Calculator</a>
+			</nav>
+		</header>
+		<div>
+			<h1>Body Mass Index Calculator</h1>
+			<div id="cal">
+				<div style="margin: 0 auto; display: inline-block; text-align: right;">
+					<label>Body weight: <input name="weight" size="12" type="text" value=""></label>
+					<select name="weight_type" class="bmi" aria-label="Weight unit">
+						<option value="pounds" selected="">Pounds</option>
+						<option value="kilos">Kilograms</option>
+					</select>
+					<br>
+					<label>Body height: <input name="height" size="12" type="text"></label>
+					<select name="height_type" class="bmi" aria-label="Height unit">
+						<option value="feet">Feet, Inches</option>
+						<option value="cm">Centimeters</option>
+					</select>
+					<br>
+					<input type="submit" value="Compute" onclick="showresult()" style="left:0; ">
+					<h3>Result :<textarea readonly name="result"></textarea></h3>
+				</div>
+			</div>
+
+			<tr style="height: auto !important;"><td style="height: auto !important;">
+			<div class="how">
+				<p><b>Body Mass Index Calculator</b> computes BMI index for adults using the following equation:</p>
+				<p><img src="https://www.gstatic.com/education/formulas/images_long_sheet/en/body_mass_index.svg" alt="BMI equation"></p>
+				<p><strong>Body mass index</strong> is computed as a ratio of weight in kilograms over height in meters square. It should be thought of as a rule of thumb that categorizes people in 4 broad categories: underweight, normal, overweight and obese. This simplistic definition does not account for differences in distributions between different genres, races and occupations. For example a body builder whose BMI falls in the overweight category may very well have a lean body with very low body fat. Therefore BMI numbers should never be taken out of context and should not be acted upon without consulting with your nutritionist and physician.</p>
+				<p>Given that person's height is fairly stable once they reach adulthood, people who aim to change BMI typically focus on changing their body weight. The latter can be achieved through modification of diet and exercise routines under. This should not be attempted without first consulting with your doctor who has the full knowledge of your medical history.</p>
+
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript">
+		function showresult(){
+			var w=document.getElementsByName('weight')[0].value;
+			var h=document.getElementsByName('height')[0].value;
+			var feet=h.split(",");
+			var str=w/((0.3048*feet[0]+0.0254*feet[1])*(0.3048*feet[0]+0.0254*feet[1]));
+			var cc=eval(str);
+			document.getElementsByName('result')[0].value=cc;
+			console.log(cc);
+		}
+	</script>
+</body>
+</html>
