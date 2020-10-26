@@ -33,7 +33,7 @@
 8.Finally , it greets the user and quits.
 
 # Block diagram
-    * link : https://drive.google.com/file/d/10J0UiALE6-LiiAMgTbL-vsjrYk8XSVFq/view?usp=sharing
+    * Link : https://drive.google.com/file/d/10J0UiALE6-LiiAMgTbL-vsjrYk8XSVFq/view?usp=sharing
     
     
 # Youtube Link 
