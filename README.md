@@ -1,17 +1,17 @@
 # WebNutribot
 
-#Team Members:
+# Team Members:
 * Mutyalapati Chaitanya -18pa1a05a4
 * Maram Venkatadinesh Reddy -18pa1a0588
 * Kolisetty Adithya Vardhan -18pa1a0575
 
 # objective:
 
-*This web chatbot is to know the nutrional values of item and it suggest good nutrtional based on BMI(Body Mass Index)
+* This web chatbot is to know the nutrional values of item and it suggest good nutrtional based on BMI(Body Mass Index)
 
-*We used javascript to develop this .
+* We used javascript to develop this .
 
-*Now at present our main goal is to output based on items given .
+* Now at present our main goal is to output based on items given .
 
 # steps :
 1.Bot First greets the user and asks for name of the user
